@@ -18,6 +18,7 @@ h2 {
 
 h2 {
     margin-top: 24px;
+    font-size: 24px;
 }
 
 label[for] {
@@ -25,6 +26,7 @@ label[for] {
     width: 9em;
     margin-bottom: 0.5em;
     font-weight: bold;
+    line-height: 1.5em;
 }
 
 label[for="contactBy"] {
@@ -38,14 +40,14 @@ input[type="text"],
 input[type="email"],
 input[type="date"] {
     width: 20em;
-    height: 2em;
+    height: 1.5em;
     margin-left: 0.5em;
     margin-bottom: 0.5em;
     font-size: 16px;
 }
 
 #contactBy {
-    font-size: 18px;
+    font-size: 16px;
     vertical-align: middle;
 }
 

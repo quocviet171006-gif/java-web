@@ -1,0 +1,69 @@
+body {
+    margin: 0 40px;
+    font: 18px Arial, sans-serif;
+}
+
+main {
+    max-width: 620px;
+}
+
+.logo {
+    width: 150px;
+}
+
+h1,
+h2 {
+    color: teal;
+}
+
+h2 {
+    margin-top: 24px;
+}
+
+label[for] {
+    float: left;
+    width: 9em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+label[for="contactBy"] {
+    float: none;
+    width: auto;
+    margin-right: 0;
+    font-weight: normal;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 20em;
+    height: 2em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 16px;
+}
+
+#contactBy {
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+br {
+    clear: both;
+}
+
+button {
+    font: inherit;
+}
+
+.result-row {
+    display: grid;
+    grid-template-columns: 9em 1fr;
+    gap: 0.5em;
+    margin: 0 0 0.7em;
+}
+
+.result-row strong {
+    color: #111;
+}
